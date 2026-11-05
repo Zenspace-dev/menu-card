@@ -24,8 +24,8 @@ button {
     border: none;
     cursor: pointer;
 }
-#menu-text {
-    background-color: brown;
+#menu-text: {
     white-space: pre-line;
+    background-color: brown;
     color: white;
 }

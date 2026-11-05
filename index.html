@@ -11,14 +11,20 @@
 
     <form id="menu-form">
         <label for="menu-input">Paste your menu as JSON</label>
-        <textarea id="menu-input"></textarea>
-        
+        <textarea id="menu-input">
+        [
+        {"name": "Smash burger", "price": 6.5},
+        {"name": "Funnel cake", "price": 5.5},
+        {"name": "Deep-fried honey bun", "price": 6.25},
+        {"name": "Hot pretzel", "price": 3}
+        ]
+        </textarea>
         <button type="submit">Show My Menu</button>
         </form>
 
         <p id="count"></p>
         <p id="menu-text"></p>
-        
+
    
     
     <script src="script.js"></script>
